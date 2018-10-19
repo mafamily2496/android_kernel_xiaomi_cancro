@@ -49,7 +49,7 @@ static const char *default_compressor = "lzo";
 #define ALLOC_ERROR_LOG_RATE_MS 1000
 
 /* Module params (documentation at end) */
-static unsigned int num_devices = 4;
+static unsigned int num_devices = 1;
 
 static inline void deprecated_attr_warn(const char *name)
 {
